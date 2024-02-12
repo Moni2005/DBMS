@@ -3,16 +3,18 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+   
     
 }
 
-li, a, button, input{
+li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    background-color: #24252A;
 
 }
 
@@ -22,26 +24,29 @@ header{
     align-items: center;
     padding: 0px 5%;
     background-color: #24252A;
+    position: sticky;
+    border-radius: 45px;
+    margin:  25px;
+    
 }
 
 .logo{
     cursor: pointer;
+    background-color: #24252A;
 }
 
 .links{
     list-style: none;
+    background-color: #24252A;
 }
 
 .links li{
     display: inline-block;
     padding: 0px 20px;
+    background-color: #24252A;
 }
 
-input{
-    width: 550px;
-    padding: 9px;
-    border-radius: 50px;
-}
+
 
 .links li a{
     transition: all 0.3s ease 0s;
@@ -66,4 +71,20 @@ button:hover{
 
 .menu{
     width: 35px;
+    background-color: #24252A;
+}
+
+.search{
+    background-color: #24252A;
+   
+}
+input{
+    width: 550px;
+    padding: 9px;
+    border: 1px #edf0f1;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    background-color: #24252A;
+    
 }
