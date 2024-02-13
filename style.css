@@ -86,5 +86,8 @@ input{
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     background-color: #24252A;
-    
+    color: white;
+    overflow: auto;
 }
+
+
