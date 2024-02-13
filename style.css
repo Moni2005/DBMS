@@ -27,7 +27,6 @@ header{
     position: sticky;
     border-radius: 45px;
     margin:  25px;
-    
 }
 
 .logo{
@@ -85,7 +84,7 @@ input{
     border-radius: 50px;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    background-color: #24252A;
+    background-color: #eff0f7;
     color: white;
     overflow: auto;
 }
